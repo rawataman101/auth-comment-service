@@ -1,3 +1,5 @@
+backend endpoint: https://auth-comment-service.onrender.com
+
 # Auth & Comment Permission Service
 
 A Node.js backend service that handles:
@@ -42,8 +44,8 @@ Login
 curl -X POST http://localhost:5000/api/auth/login \
 -H "Content-Type: application/json" \
 -d '{
-  "email": "alice@example.com",
-  "password": "password123"
+  "email": "aman@gmail.com",
+  "password": "aman1234"
 }'
 ```
 
